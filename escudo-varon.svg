@@ -1,0 +1,8 @@
+<svg width="800px" height="800px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<!-- Escudo con estrella, logo por defecto de la plantilla para varones -->
+<path d="M512 110 L860 230 L860 500 C860 710 710 850 512 930 C314 850 164 710 164 500 L164 230 Z" fill="#CE9E40"/>
+<path d="M512 160 L815 265 L815 500 C815 685 685 810 512 880 C339 810 209 685 209 500 L209 265 Z" fill="#162642"/>
+<path d="M512 160 L815 265 L815 500 C815 685 685 810 512 880 Z" fill="#1F3558"/>
+<path d="M512 330 L553 455 L685 455 L578 532 L619 657 L512 580 L405 657 L446 532 L339 455 L471 455 Z" fill="#FFFFFF"/>
+<path d="M300 730 L512 800 L724 730" fill="none" stroke="#CE9E40" stroke-width="28" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
