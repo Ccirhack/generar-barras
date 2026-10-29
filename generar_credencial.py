@@ -34,8 +34,8 @@ from svglib.svglib import svg2rlg
 # ---------------------------------------------------------------------------
 # <<< EDITA ESTA LINEA con el DNI que quieras si corres el script sin
 # argumentos por terminal >>>
-# python generar_credencial.py 73700356
-#python generar_credencial.py 73700356 --tipo varon
+# python3 generar_credencial.py 73700356
+#python3 generar_credencial.py 73700356 --tipo varon
 # ---------------------------------------------------------------------------
 DNI_POR_DEFECTO = "70892343"
 TIPO_POR_DEFECTO = "mujer"  # "mujer" o "varon"
