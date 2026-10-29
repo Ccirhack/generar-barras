@@ -61,6 +61,30 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+### Activar / desactivar el entorno virtual (.venv)
+
+El `.venv` es una copia aislada de Python con las dependencias del
+`requirements.txt` ya instaladas, para no tocar el Python del sistema. Hay
+que **activarlo en cada ventana nueva de terminal** antes de correr el
+script (en macOS no hay forma de "activarlo siempre"; es por sesión de
+terminal):
+
+```bash
+# activar (parado en la carpeta del proyecto)
+source .venv/bin/activate
+```
+
+Vas a ver que el prompt cambia y aparece `(.venv)` al principio — ahí ya
+podés usar `python` en vez de `python3`.
+
+```bash
+# desactivar, para volver al Python del sistema
+deactivate
+```
+
+Si cerrás la terminal, el entorno queda desactivado automáticamente (no
+hace falta correr `deactivate` a mano en ese caso).
+
 ## Uso
 
 ```bash
